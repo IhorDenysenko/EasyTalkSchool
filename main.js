@@ -61,7 +61,7 @@ app.use(bodyParser()); // get information from html forms
     configureEndpoints(app);
 
     //Запуск додатка за вказаним портом
-    app.listen(port, function () {
+    app.listen(process.env.PORT, function () {
         console.log('Project running on http://localhost:'+ port+'/');
     });
 }
