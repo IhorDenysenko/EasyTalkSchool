@@ -1,0 +1,12 @@
+{
+  "name": "EasyTalkSchool",
+  "version": "0.0.1",
+  "dependencies": {
+    "ejs": "2.5.7",
+    "express": "3.21.2"
+  },
+  "engines": {
+    "node": "6.10.0",
+    "npm": "3.10.10"
+  }
+}
