@@ -426,6 +426,7 @@ section.section {
 	text-align: center;
 	margin-bottom: 0;
 	padding-bottom:0;
+    z-index: 9999;
 }
 
 .navbar .navbar-collapse {
@@ -569,10 +570,10 @@ h1 a.navbar-brand {
     border-radius: 10px;
     width: auto;
     height: auto;
-    transform: scale(1.5);
+    transform: scale(2.0);
     font-family: 'open-sans';
     font-style: italic;
-    
+    z-index: 1;
      --box-shadow-color:black;
     box-shadow: 1px 1px 2px 0px var(--box-shadow-color);   
 }
@@ -593,6 +594,14 @@ h1 a.navbar-brand {
     padding: 0;
     margin: 10px;
     
+}
+
+.header-icons{
+    height: 50px;
+    width: 35px;
+    margin: -10px;
+    padding-bottom:15px;
+     padding-top: -20px;
 }
 
 section.featured {
@@ -1246,6 +1255,7 @@ Media queries
 
 	.navbar.navbar-fixed-top {
 		background-color:rgba(0,0,0,1);
+       
 	}
 	.navbar .navbar-collapse ul.nav {
 		background-color: #444;
