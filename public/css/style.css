@@ -531,11 +531,17 @@ h1 a.navbar-brand {
 .biglabel{
      font-size: 30px;
      color:black;
+    font-family: 'open-sans';
 }
 
 .smalllabel{
      font-size: 18px;
     color: black;
+    font-family: 'open-sans';
+}
+
+.open-sans{
+    font-family: 'open-sans';
 }
 
 
@@ -547,10 +553,11 @@ h1 a.navbar-brand {
     color: black;
     font-size: 20px;
     line-height: 1.5;
+    font-family: 'open-sans';
 }
 
 .video{
-   margin: 50px;
+   margin: 20px;
 }
 
 #youtubelink{
@@ -558,17 +565,23 @@ h1 a.navbar-brand {
 }
 
 .mystylebutton{
-    margin-top: 50px;
+    margin-top: 20px;
     border-radius: 10px;
     width: auto;
     height: auto;
     transform: scale(1.5);
-    
+    font-family: 'open-sans';
     font-style: italic;
     
      --box-shadow-color:black;
     box-shadow: 1px 1px 2px 0px var(--box-shadow-color);   
 }
+
+@font-face {
+    font-family: 'open-sans'; /*a name to be used later*/
+    src: url('https://fonts.googleapis.com/css?family=Open+Sans'); /*URL to font*/
+}
+
 
 .headerbutton{
     border-radius: 5px;
